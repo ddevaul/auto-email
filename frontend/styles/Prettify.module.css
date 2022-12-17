@@ -1,0 +1,46 @@
+.formLayout {
+  min-height: 500px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.formLayout div {
+  margin: 20px;
+  /* width: 200px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.formLayout label {
+  margin-right: 20px;
+  /* min-width: 120px; */
+}
+
+.formLayout input {
+  /* width: 200px; */
+}
+
+.formLayout textarea {
+  min-width: 200px;
+}
+
+.responsepre {
+    white-space: -moz-pre-wrap; /* Mozilla, supported since 1999 */
+    white-space: -pre-wrap; /* Opera */
+    white-space: -o-pre-wrap; /* Opera */
+    white-space: pre-wrap; /* CSS3 - Text module (Candidate Recommendation) http://www.w3.org/TR/css3-text/#white-space */
+    word-wrap: break-word; /* IE 5.5+ */
+}
+
+.selectedResponse {
+  background-color: rgb(163, 163, 163);
+}
+
+.quickSelect button {
+  margin: 5px;
+  padding: 5px;
+  height: 30px;
+}
