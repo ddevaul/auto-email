@@ -17,7 +17,7 @@ class FullResponse extends React.Component {
       },
       body: JSON.stringify({state: this.state})
     };
-    let response = await fetch("http://localhost:8080/fullresponse", requestOptions);
+    let response = await fetch("https://auto-email-desi.herokuapp.com/fullresponse", requestOptions);
     response = await response.json();
     this.setState({response});
   }

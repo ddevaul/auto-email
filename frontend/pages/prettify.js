@@ -18,7 +18,7 @@ class Prettify extends React.Component {
       },
       body: JSON.stringify({state: this.state})
     };
-    let response = await fetch("http://localhost:8080/prettify", requestOptions);
+    let response = await fetch("https://auto-email-desi.herokuapp.com/prettify", requestOptions);
     response = await response.json();
     // console.log(response);
     this.setState({response});
