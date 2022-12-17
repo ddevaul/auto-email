@@ -19,12 +19,14 @@
   /* min-width: 120px; */
 }
 
-.formLayout input {
-  /* width: 200px; */
-}
-
 .formLayout textarea {
   min-width: 200px;
+}
+
+.formLayout button {
+  height: 30px;
+  width: 100px;
+  margin: auto;
 }
 
 .responsepre {
@@ -34,7 +36,6 @@
     white-space: pre-wrap; /* CSS3 - Text module (Candidate Recommendation) http://www.w3.org/TR/css3-text/#white-space */
     word-wrap: break-word; /* IE 5.5+ */
 }
-
 .selectedResponse {
   background-color: rgb(163, 163, 163);
 }
